@@ -4,7 +4,7 @@ function add(a,b=1) {
 }
 console.log(add(3))
 
-//主动抛出错误
+//主动抛出错误 throw new Error( xxxx ),就可以抛出错误。
 // function add1(a,b=1) {
 //   if (a==0){
 //     throw new Error('this is error')

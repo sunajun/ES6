@@ -15,7 +15,7 @@ console.log(arr1)
 let arr2 = Array.of('saj','cyx','dad')
 console.log(arr2)
 
-//find()实例方法
+//find()实例方法  如果找到符合条件的数组元素就进行return，并停止查找
 let arr3=[1,2,3,4,5,6,7,8,9]
 console.log(arr3.find(function (value,index,arr3) {
   return value > 5;

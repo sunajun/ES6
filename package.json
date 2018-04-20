@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"babel src/index.js -o dist/index.js"
+    "build":"babel src/index.js -o dist/index.js",
+    "dev":"babel src/day17/index.js -o src/day17/module.js",
+    "dev1":"babel-node src/day17/index.js  -o src/day17/module.js"
   },
   "keywords": [],
   "author": "",
